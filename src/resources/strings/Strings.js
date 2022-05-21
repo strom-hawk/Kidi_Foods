@@ -1,0 +1,17 @@
+export const all_rights_reserved = '2022 © KIDIFOODS. All rights reserved.'
+export const about_us = 'ABOUT US'
+export const loren_ipsum = 'Loren ipSum Loren ipSum Loren ipSum Loren ipSum Loren ipSum'
+export const company = 'COMPANY'
+export const contact_us = 'Contact Us'
+export const careers = 'Careers'
+export const funding = 'Funding'
+export const investors = 'Investors'
+export const privacy_policy = 'Privacy Policy'
+export const terms_and_conditions = 'Terms and Conditions'
+export const subs_to_newsletter = "SUBSCRIBE TO OUR NEWSLETTER"
+export const subscribe = 'Subscribe'
+export const enter_email_hint = 'Enter your email'
+export const reach_us_at = 'Reach us at'
+export const location = "Location"
+export const call = "Call"
+export const email = "Email"

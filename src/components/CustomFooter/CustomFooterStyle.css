@@ -1,0 +1,119 @@
+@import '../../resources/values/Dimens.css';
+@import '../../resources/values/Colors.css';
+@import '../../App.css';
+
+body{
+    margin: 0;
+    margin-top: var(--px80);
+}
+
+hr {
+    display: block;
+    height: var(--px1);
+    border: var(--px0);
+    border-top: var(--px1) solid var(--footer_border_background_color);
+    margin-top: var(--px-1);
+    margin-bottom: var(--px-1);
+    margin-left: var(--px5);
+    margin-right: var(--px5);
+    padding: var(--px0);
+}
+
+.FooterMainContent{
+    display: flex;
+    flex-direction: row;
+    color: var(--color_white);
+    background-color:var(--footer_background_color);
+}
+
+.SocialConnectionMainContent{
+    display: flex;
+    padding-top: var(--px5);
+    padding-bottom: var(--px5);
+    flex-direction: row;
+    color: var(--color_white);
+    background-color:var(--footer_background_color);
+    align-items: center;
+    justify-content: center;
+    height: var(--px150);
+}
+
+.AboutUsStyle{
+    flex: 1.7;
+    margin: var(--px5);
+    padding-left: var(--px10);
+    font-family: KidiBoldFont;
+}
+
+.AboutUsContentStyle{
+    color: var(--color_white);
+    font-family: KidiRegularFont;
+}
+
+.ContactUsStyle{
+    flex:1;
+    margin: var(--px5);
+    font-family: KidiBoldFont;
+}
+
+.NewsLetterParentLayout{
+    flex:1;
+    margin: var(--px5);
+    font-family: Helvetica;
+}
+
+.RightsReservedContent{
+    display: flex;
+    height: var(--px40);
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--footer_border_background_color);
+}
+
+.RightsReserved{
+    color: var(--color_white);
+    height: auto;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.LinksStyle{
+    height:var(--px5);
+    color: var(--color_footer_contents);
+}
+
+.reachUsAtStyle{
+    flex: 1.7;
+    margin: var(--px5);
+    padding-left: var(--px10);
+    font-family: KidiBoldFont;
+    font-size: var(--px18);
+}
+
+.reachUsContentStyle{
+    flex: 1.7;
+    font-family: KidiRegularFont;
+    font-size: var(--px14);
+    max-width: 300px;
+    height: wrap;
+    margin-top: var(--px0);
+    margin-bottom: var(--px0);
+}
+
+.imageTextContainer {
+    display: flex;
+    align-items: center;
+    margin-top: var(--px12);
+    margin-bottom: var(--px12);
+}
+
+.imageView {
+    height:var(--px20);
+    width: var(--px20);
+    padding-top: var(--px5);
+    padding-bottom: var(--px5);
+    padding-inline-start: var(--px5);
+    padding-inline-end: var(--px8);
+    filter: invert(100%);
+}

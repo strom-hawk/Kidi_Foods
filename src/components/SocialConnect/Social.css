@@ -1,0 +1,15 @@
+@import '../../resources/values/Colors.css';
+@import '../../resources/values/Dimens.css';
+
+.SocialConnectionContent{
+    height:var(--px35);
+    width: var(--px35);
+    padding-top: var(--px5);
+    padding-bottom: var(--px5);
+    padding-inline-start: var(--px5);
+    padding-inline-end: var(--px5);
+}
+
+.SocialConnectionContent:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'KidiRegularFont';
+    src: local('KidiRegularFont'), url('../src/resources/font/Lato/Lato-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'KidiBoldFont';
+    src: local('KidiBoldFont'), url('../src/resources/font/Lato/Lato-Bold.ttf') format('opentype');
+}

@@ -1,0 +1,18 @@
+@import '../../resources/values/Colors.css';
+@import '../../resources/values/Dimens.css';
+.emailInputField {
+    height: var(--px32);
+    padding-left: var(--px10);
+    border: transparent;
+}
+
+.submitButton {
+    height: var(--px34);
+    margin-left: var(--px-1);
+    background: transparent;
+    background-color: #65d49a;
+    border-color: #65d49a;
+    border-style: solid;
+    color: var(--color_white);
+    font-weight: bold;
+}

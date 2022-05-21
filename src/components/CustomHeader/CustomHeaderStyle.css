@@ -1,0 +1,66 @@
+@import '../../resources/values/Dimens.css';
+@import '../../resources/values/Colors.css';
+
+.header_layout{
+    height: var(--px75);
+    width: 100%;
+    top: var(--px0);
+    left: var(--px0);
+    position: fixed;
+    background: var(--color_white);
+}
+
+.header_navigation{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: var(--px10);
+}
+
+.header_logo{
+    height: var(--px50);
+    width: var(--px70);
+    align-items: center;
+    margin-left: var(--px30);
+    
+}
+
+.blank_space{
+    flex: 1;
+}
+
+.header_navigation_items ul{
+    list-style: none;
+    margin-left: var(--px50);
+    padding:var(--px0);
+    display: flex;
+}
+
+.header_navigation_items li{
+    padding-left: var(--px5);
+    padding-right: var(--px5);
+}
+
+.header_navigation_items a{
+    text-decoration: none;
+    color: var(--color_header_contents);
+    margin-left: var(--px50);
+    cursor: pointer;
+}
+
+.header_navigation_items :hover,
+.header_navigation_items :active{
+    color:orange;
+}
+
+@media (max-width: 768px){
+    .header_navigation_items{
+        display: none;
+    }
+}
+
+@media(min-width: 769px){
+    .header_toggle_button{
+        display: none;
+    }
+}
